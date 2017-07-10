@@ -39,6 +39,11 @@ chmod 644 ~/.ssh/authorized_keys
 
 cat <<INFO
 
+defaults write com.apple.finder ShowStatusBar -bool true
+defaults write com.apple.finder ShowPathbar -bool true
+defaults write com.apple.finder FXPreferredViewStyle Nlsv
+killall Finder
+
 *** Manual Steps ***
 
 👉  setup 1Password
