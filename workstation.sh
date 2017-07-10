@@ -6,7 +6,7 @@ then
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-brew install git yarn gradle tree
+brew install git yarn gradle tree kryptco/tap/kr
 
 brew install mysql mailhog rabbitmq
 brew services start mysql
