@@ -21,7 +21,7 @@ open Flycut.app/
 popd > /dev/null
 
 # iTerm theme
-pushd > /dev/null
+pushd /tmp > /dev/null
 curl -s -L -J -O "https://rawgit.com/mbadolato/iTerm2-Color-Schemes/master/schemes/SpaceGray Eighties.itermcolors"
 open "SpaceGray Eighties.itermcolors"
 popd > /dev/null
