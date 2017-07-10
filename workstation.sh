@@ -30,3 +30,16 @@ mkdir -p ~/.ssh
 chmod 700 ~/.ssh
 touch ~/.ssh/authorized_keys
 chmod 644 ~/.ssh/authorized_keys
+
+cat <<INFO
+
+*** Manual Steps ***
+
+👉  setup 1Password
+👉  setup Chrome
+👉  Pivotal VPN: https://otp.pivotal.io/
+👉  configure IntelliJ license: http://omaha.pivotallabs.com:8080/licenseServer
+👉  setup IntelliJ settings repository: https://github.com/lnhrdt/intellij-settings
+👉  setup Syncthing: http://localhost:8084
+
+INFO
