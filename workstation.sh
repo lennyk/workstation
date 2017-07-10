@@ -9,6 +9,11 @@ brew services start rabbitmq
 
 brew cask install 1password flycut google-chrome intellij-idea iterm2 java shiftit syncthing-bar cyberduck tunnelblick visual-studio-code docker
 
+pushd /Applications > /dev/null
+open ShiftIt.app/
+open Flycut.app/
+popd > /dev/null
+
 git config --global push.default simple
 git config --global user.name "Leonhardt Koepsell"
 git config --global user.email "leonhardt@koepsell.io"
