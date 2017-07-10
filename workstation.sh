@@ -14,6 +14,12 @@ open ShiftIt.app/
 open Flycut.app/
 popd > /dev/null
 
+# iTerm theme
+pushd > /dev/null
+curl -s -L -J -O "https://rawgit.com/mbadolato/iTerm2-Color-Schemes/master/schemes/SpaceGray Eighties.itermcolors"
+open "SpaceGray Eighties.itermcolors"
+popd > /dev/null
+
 git config --global push.default simple
 git config --global user.name "Leonhardt Koepsell"
 git config --global user.email "leonhardt@koepsell.io"
