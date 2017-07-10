@@ -1,5 +1,11 @@
 #!/usr/bin/env bash -e
 
+# Install Homebrew
+if ! [ $(which brew) ]
+then
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
 brew install git yarn gradle tree
 
 brew install mysql mailhog rabbitmq
