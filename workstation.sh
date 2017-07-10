@@ -18,6 +18,8 @@ git config --global push.default simple
 git config --global user.name "Leonhardt Koepsell"
 git config --global user.email "leonhardt@koepsell.io"
 
+mkdir -p ~/workspace
+
 mkdir -p ~/.ssh
 chmod 700 ~/.ssh
 touch ~/.ssh/authorized_keys
