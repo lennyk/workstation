@@ -6,7 +6,7 @@ then
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-brew install git yarn gradle tree kryptco/tap/kr
+brew install git yarn gradle tree kryptco/tap/kr git-duet/tap/git-duet
 
 brew install mysql mailhog rabbitmq
 brew services start mysql
@@ -14,6 +14,11 @@ brew services start mailhog
 brew services start rabbitmq
 
 brew cask install 1password flycut google-chrome intellij-idea iterm2 java shiftit syncthing-bar cyberduck tunnelblick visual-studio-code docker
+
+cat >> ~/.bash_profile <<EOF
+# git duet
+export GIT_DUET_ROTATE_AUTHOR=1
+EOF
 
 pushd /Applications > /dev/null
 open ShiftIt.app/
