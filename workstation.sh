@@ -6,7 +6,7 @@ then
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-brew cask install java
+brew cask install caskroom/versions/java8
 
 brew install git yarn gradle tree kryptco/tap/kr git-duet/tap/git-duet bash-completion
 
