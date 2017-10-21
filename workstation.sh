@@ -23,7 +23,7 @@ export GIT_DUET_ROTATE_AUTHOR=1
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 EOF
 
-brew cask install 1password flycut google-chrome intellij-idea iterm2 shiftit syncthing-bar cyberduck tunnelblick visual-studio-code docker
+brew cask install 1password flycut google-chrome intellij-idea iterm2 shiftit syncthing-bar cyberduck tunnelblick google-cloud-sdk visual-studio-code docker
 
 pushd /Applications > /dev/null
 open ShiftIt.app/
