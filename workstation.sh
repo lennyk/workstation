@@ -28,6 +28,9 @@ brew cask install 1password flycut google-chrome intellij-idea iterm2 shiftit sy
 pushd /Applications > /dev/null
 open ShiftIt.app/
 open Flycut.app/
+open Docker.app/
+open Tunnelblick.app/
+open 1Password\ 6.app/
 popd > /dev/null
 
 # iTerm theme
